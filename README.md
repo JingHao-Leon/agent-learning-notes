@@ -88,6 +88,24 @@ flowchart TD
 git clone https://github.com/JingHao-Leon/agent-learning-notes.git
 ```
 
+## ❓ 常见问题（FAQ）
+
+**Q1：这份资料和原书《AI Agents in Action》是什么关系？会有版权问题吗？**
+
+整理稿基于 Micheal Lanham 的《AI Agents in Action》重写并大幅扩展（70+ 图解、40+ 案例、100+ 中英术语对照），属于个人学习笔记性质的内容，并非原书的中文译本。原创部分按 [MIT License](./LICENSE) 开放；如权利人要求移除相关内容，将及时配合处理（详见下方[版权与合规](#️-版权与合规)）。
+
+**Q2：Markdown 版和 PDF 版内容一样吗？该选哪个？**
+
+两者内容相同，PDF 即 Markdown 的导出版。在线阅读、目录跳转和全文检索建议用 [Markdown 版](./ai_agents_book_full.md)；下载收藏、离线阅读或在平板/阅读器上看可用 [PDF 版](./ai_agents_book_full.pdf)。
+
+**Q3：零基础能直接读吗？需要什么前置知识？**
+
+可以按附录 C 的「0 → 1 → 生产」五阶段学习路径循序渐进：第 1 章从「什么是 Agent」讲起，不需要 Agent 开发经验。从第 2 章起包含大量可运行的 Python 示例（OpenAI / Claude / Gemini / Ollama 等接入方式），建议具备基础 Python 能力，并准备一个可调用的 LLM API 或本地模型环境（LM Studio / Ollama）。
+
+**Q4：后续还会更新吗？**
+
+会。Roadmap 中的「分章节阅读笔记与摘要」与「更多 Agent 方向书籍/论文的整理与笔记」均在计划中，仓库持续更新。
+
 ## 📁 仓库结构
 
 ```
@@ -102,6 +120,14 @@ git clone https://github.com/JingHao-Leon/agent-learning-notes.git
 - [x] 《AI Agents 实战指南》整理稿（md + pdf）
 - [ ] 分章节阅读笔记与摘要
 - [ ] 更多 Agent 方向书籍/论文的整理与笔记
+
+## ⚠️ 局限与已知问题（Limitations）
+
+- **收录范围有限**：目前仅覆盖《AI Agents 实战指南》这一本整理稿，Roadmap 中的分章节阅读笔记与更多书目尚未完成，还不能作为完整的 Agent 学习资料库使用。
+- **时效性风险**：书中涉及的框架与平台（AutoGen、CrewAI、Semantic Kernel、Prompt Flow、各家 LLM API 等）迭代很快，整理稿反映的是成稿时点的版本，与最新 API 和用法可能存在出入，实操时请以官方文档为准。
+- **示例代码未工程化**：代码以 Markdown 内嵌片段形式给出，仓库未提供 requirements、测试或可直接运行的示例工程，复制运行时需自行补齐依赖与环境。
+- **整理稿不能替代原书**：内容以概念梳理与示例串讲为主，偏学习笔记视角，无法覆盖原书及原始论文的全部细节，深度需求请回读原书与一手资料。
+- **PDF 为静态导出版**：内容更新以 Markdown 为准，PDF 可能滞后于最新修订。
 
 ## ⚖️ 版权与合规
 
